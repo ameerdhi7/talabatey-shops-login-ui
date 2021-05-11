@@ -14,8 +14,11 @@
 <style>
 
     .bg-talabatey {
-        /*background: #E4002B;*/
         background: #EF3340;
+    }
+
+    .bg-talabatey-darker {
+        background: #E4002B;
     }
 
     body {
@@ -28,7 +31,7 @@
     }
 </style>
 <header class="fixed">
-    <img src="assets/logo.png" class="w-1/2" alt="">
+    <img src="assets/small-logo.png" class="w-1/2" alt="">
 </header>
 <main class="flex min-h-screen">
     <section
@@ -54,7 +57,7 @@
                 </a>
             </div>
             <div class="flex items-center justify-between">
-                <button class="bg-talabatey w-screen  hover:bg-talabatey-dark text-white font-bold py-2 py-3.5 rounded"
+                <button class="bg-talabatey relative w-screen   text-white font-bold py-2 py-3.5 rounded"
                         type="button">
                     Sign In
                 </button>
@@ -63,8 +66,9 @@
 
         </div>
     </section>
-    <section class="w-0 lg:w-1/2 relative flex items-center justify-center"
-             style="background-image:url('assets/half-red.png') ">
+    <section class="w-0 lg:w-1/2  relative bg-talabatey flex items-center justify-center"
+             style="background-image:url('assets/full-patteren.png');background-position: -46px 142px; ">
+        <img src="assets/logo-white.png" class="" alt="">
     </section>
 </main>
 </body>
